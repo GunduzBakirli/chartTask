@@ -1,0 +1,55 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+}
+
+#leftSide,
+#rightSide {
+  width: 50%;
+  padding: 30px;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.filter-Box form {
+  width: 100%;
+  display: flex;
+}
+
+.filter-Box input {
+  display: flex;
+  margin-right: 30px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+
+.btn {
+  padding: 10px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: blue;
+
+  border: 0px;
+  color: white;
+}
