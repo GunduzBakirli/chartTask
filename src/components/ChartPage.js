@@ -40,7 +40,7 @@ export default function ChartPage({ charData }) {
     labels: [...charData.map((index) => index.date.substring(0, 10))],
     datasets: [
       {
-        label: charData[0].product[0].name,
+        label: charData[0] && charData[0].product[0].name,
         data: [...charData.map((index) => index.amount)],
         borderColor: "rgb(255, 99, 132)",
         backgroundColor: "rgba(255, 99, 132, 0.5)",
